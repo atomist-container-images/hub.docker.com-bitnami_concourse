@@ -1,12 +1,24 @@
-# Tags: latest, 7.7.1-debian-10-r28, 7.7.1, 7-debian-10, 7
+# Tags: latest, 7.7.1-debian-10-r32, 7.7.1, 7-debian-10, 7
 FROM bitnami/concourse:latest
-FROM bitnami/concourse:7.7.1-debian-10-r28
+FROM bitnami/concourse:7.7.1-debian-10-r32
 FROM bitnami/concourse:7.7.1
 FROM bitnami/concourse:7-debian-10
 FROM bitnami/concourse:7
 
 # Tags: _
 FROM bitnami/concourse:_
+
+# Tags: 7.7.1-debian-10-r31
+FROM bitnami/concourse:7.7.1-debian-10-r31
+
+# Tags: 7.7.1-debian-10-r30
+FROM bitnami/concourse:7.7.1-debian-10-r30
+
+# Tags: 7.7.1-debian-10-r29
+FROM bitnami/concourse:7.7.1-debian-10-r29
+
+# Tags: 7.7.1-debian-10-r28
+FROM bitnami/concourse:7.7.1-debian-10-r28
 
 # Tags: 7.7.1-debian-10-r27
 FROM bitnami/concourse:7.7.1-debian-10-r27
@@ -73,15 +85,3 @@ FROM bitnami/concourse:7.7.1-debian-10-r7
 
 # Tags: 7.7.1-debian-10-r6
 FROM bitnami/concourse:7.7.1-debian-10-r6
-
-# Tags: 7.7.1-debian-10-r5
-FROM bitnami/concourse:7.7.1-debian-10-r5
-
-# Tags: 7.7.1-debian-10-r4
-FROM bitnami/concourse:7.7.1-debian-10-r4
-
-# Tags: 7.7.1-debian-10-r2
-FROM bitnami/concourse:7.7.1-debian-10-r2
-
-# Tags: 7.7.1-debian-10-r1
-FROM bitnami/concourse:7.7.1-debian-10-r1
